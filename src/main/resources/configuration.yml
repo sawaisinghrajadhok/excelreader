@@ -1,0 +1,214 @@
+#Excel Sheet File
+revenueSummaryFilePath: d:/gtp1.xlsx
+
+#Database Properties
+url: jdbc:mysql://50.76.44.137:7306/gtp_reports
+username: gtp_user
+password: password
+batchSize: 50
+
+# Configure Banks and years here.
+years:
+  2017:
+    start: 1
+    end: 15
+  2016:
+    start: 17
+    end: 31
+  2015:
+    start: 33
+    end: 47
+  2014:
+    start: 49
+    end: 63  
+
+banks:
+   all_banks:
+      start: 2
+      end: 53
+   AfrAsia - MUR:
+      start: 55
+      end: 92
+   AfrAsia - EUR:
+      start: 94
+      end: 131
+   AfrAsia - USD:
+      start: 133
+      end: 170
+   BIA:
+      start: 172   
+      end: 201
+   BIB:
+      start: 203
+      end: 232
+   BIS:
+      start: 235
+      end: 274
+   BMOI:
+      start: 276
+      end: 315
+   BOA  Cote d'Ivoire:
+      start: 317
+      end: 356
+   BOA  Senegal:
+      start: 358
+      end: 397
+   BSIC Senegal:
+      start: 399
+      end: 436
+   BSIC Mali:
+      start: 438
+      end: 475
+   BSIC Niger:
+      start: 477
+      end: 514
+   BSIC Togo:
+      start: 516
+      end: 553
+   Coris:
+      start: 555
+      end: 594
+   Ecobank Burkina Faso:
+      start: 596
+      end: 623
+   Ecobank Benin:
+      start: 625
+      end: 652
+   Ecobank Central African Republic:
+      start: 654
+      end: 681
+   Ecobank Cameroon:
+      start: 683
+      end: 710
+   Ecobank Congo DRC:
+      start: 712
+      end: 739
+   Ecobank Cote d'Ivoire:
+      start: 741
+      end: 772
+   Ecobank Cote d'Ivoire - New Contract:
+      start: 774
+      end: 801
+   Ecobank Ghana:
+      start: 803
+      end: 830
+   Ecobank Kenya:
+      start: 832
+      end: 859
+   Ecobank Kenya USD:
+      start: 861
+      end: 888
+   Ecobank Liberia:
+      start: 890
+      end: 917
+   Ecobank Mali:
+      start: 919
+      end: 946
+   Ecobank Malawi:
+      start: 989
+      end: 1016
+   Ecobank Mozambique:
+      start: 1018
+      end: 1045
+   Ecobank Rwanda:
+      start: 1047
+      end: 1074
+   Ecobank Senegal:
+      start: 1076
+      end: 1103
+   Ecobank Sierra Leone:
+      start: 1105
+      end: 1132
+   Ecobank Chad:
+      start: 1134
+      end: 1161
+   Ecobank Togo:
+      start: 1163
+      end: 1190
+   Ecobank Tanzania:
+      start: 1192
+      end: 1219
+   Ecobank Zambia:
+      start: 1221
+      end: 1248
+   Ecobank Zimbabwe:
+      start: 1250
+      end: 1277   
+   FAB :
+      start: 1279
+      end: 1306
+   NSIA:
+      start: 1308
+      end: 1349
+   Skye:
+      start: 1351
+      end: 1391
+   Stanbic:
+      start: 1393
+      end: 1420
+   Zenith - GHS:
+      start: 1422
+      end: 1451
+   Zenith VIVO:
+      start: 1453
+      end: 1480
+   Zenith - GTW:
+      start: 1482
+      end: 1511
+   UBA - Nigeria:
+      start: 1513
+      end: 1542
+   UBA - Burkina Faso:
+      start: 1544
+      end: 1573
+   UBA - Benin:
+      start: 1575
+      end: 1604
+   UBA - Congo DRC:
+      start: 1606
+      end: 1635
+   UBA - Congo Brazzaville:
+      start: 1637
+      end: 1666
+   UBA - Cote D'Ivoire:
+      start: 1668
+      end: 1697
+   UBA - Cameroon:
+      start: 1699
+      end: 1728
+   UBA - Gabon:
+      start: 1730
+      end: 1759
+   UBA - Ghana:
+      start: 1761
+      end: 1790
+   UBA - Guinea:
+      start: 1792
+      end: 1821
+   UBA - Kenya:
+      start: 1823
+      end: 1852
+   UBA - Liberia:
+      start: 1854
+      end: 1883
+   UBA - Mozambique:
+      start: 1885
+      end: 1914
+   UBA - Sierra Leone:
+      start: 1916
+      end: 1945
+   UBA - Senegal:
+      start: 1947
+      end: 1976
+   UBA - Chad:
+      start: 1978
+      end: 2007
+   UBA - Tanzania:
+      start: 2009
+      end: 2038
+   UBA - Uganda:
+      start: 2040
+      end: 2069
+   UBA - Zambia:
+      start: 2071
+      end: 2102
